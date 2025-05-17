@@ -147,7 +147,7 @@ export default function ExpenseChart({ expenses }: ExpenseChartProps) {
             <BarChart data={dailyData} margin={{ top: 5, right: 30, left: 20, bottom: 5 }}>
               <CartesianGrid strokeDasharray="3 3" />
               <XAxis dataKey="date" />
-              <YAxis formatter={(value: number) => formatCurrency(value).split(' ')[1]} />
+              <YAxis tickFormatter={(value: number) => formatCurrency(value).split(' ')[1]} />
               <Tooltip content={<CustomTooltip />} />
               <Legend />
               <Bar dataKey="total" name="Total Gasto" fill={barColor} />
