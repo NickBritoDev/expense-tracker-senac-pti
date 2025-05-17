@@ -1,6 +1,3 @@
-'use client';
-
-import { useState } from 'react';
 import {
   Box,
   Grid,
@@ -22,10 +19,10 @@ import {
 } from '@chakra-ui/react';
 import { PlusCircle } from 'lucide-react';
 import { useExpense } from '@/contexts/ExpenseContext';
-import ExpenseForm from '@/components/expenses/ExpenseForm';
-import ExpenseCard from '@/components/expenses/ExpenseCard';
-import DailyProgress from '@/components/expenses/DailyProgress';
-import FilterBar from '@/components/expenses/FilterBar';
+import ExpenseForm from '@/app/components/expenses/ExpenseForm';
+import ExpenseCard from '@/app/components/expenses/ExpenseCard';
+import DailyProgress from '@/app/components/expenses/DailyProgress';
+import FilterBar from '@/app/components/expenses/FilterBar';
 
 export default function HomePage() {
   const { expenses, filteredExpenses } = useExpense();

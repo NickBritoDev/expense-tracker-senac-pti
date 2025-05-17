@@ -1,9 +1,9 @@
 import { ChakraProvider } from '@chakra-ui/react';
 import { AppProps } from 'next/app';
 import { Inter } from 'next/font/google';
-import theme from '@/components/theme/theme';
+import theme from '@/app/components/theme/theme';
 import { ExpenseProvider } from '@/contexts/ExpenseContext';
-import MainLayout from '@/components/layout/MainLayout';
+import MainLayout from '@/app/components/layout/MainLayout';
 import '@/app/globals.css';
 
 const inter = Inter({

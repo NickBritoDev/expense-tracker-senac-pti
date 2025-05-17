@@ -3,7 +3,7 @@ import { ExpenseProvider } from '@/contexts/ExpenseContext';
 import './globals.css';
 import { Inter } from 'next/font/google';
 import { ChakraProvider } from '@chakra-ui/react';
-import theme from '@/components/theme/theme';
+import theme from '@/app/components/theme/theme';
 
 const inter = Inter({ subsets: ['latin'] });
 

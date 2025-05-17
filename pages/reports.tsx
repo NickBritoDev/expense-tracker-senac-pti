@@ -12,11 +12,11 @@ import {
   TabPanel,
 } from '@chakra-ui/react';
 import { useExpense } from '@/contexts/ExpenseContext';
-import FilterBar from '@/components/expenses/FilterBar';
-import ExpenseCard from '@/components/expenses/ExpenseCard';
-import ExpenseSummary from '@/components/reports/ExpenseSummary';
-import ExpenseChart from '@/components/reports/ExpenseChart';
-import ExportOptions from '@/components/reports/ExportOptions';
+import FilterBar from '@/app/components/expenses/FilterBar';
+import ExpenseCard from '@/app/components/expenses/ExpenseCard';
+import ExpenseSummary from '@/app/components/reports/ExpenseSummary';
+import ExpenseChart from '@/app/components/reports/ExpenseChart';
+import ExportOptions from '@/app/components/reports/ExportOptions';
 import { formatDate } from '@/lib/utils';
 
 export default function ReportsPage() {

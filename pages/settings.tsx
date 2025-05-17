@@ -1,4 +1,3 @@
-'use client'
 import {
   Box,
   Heading,
@@ -10,8 +9,8 @@ import {
   Card,
   CardBody,
 } from '@chakra-ui/react';
-import BudgetForm from '@/components/settings/BudgetForm';
-import DataManager from '@/components/settings/DataManager';
+import BudgetForm from '@/app/components/settings/BudgetForm';
+import DataManager from '@/app/components/settings/DataManager';
 
 export default function SettingsPage() {
   return (
