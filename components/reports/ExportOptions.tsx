@@ -49,7 +49,7 @@ export default function ExportOptions({ expenses }: ExportOptionsProps) {
       
      
      
-      doc.autoTable({
+      (doc as any).autoTable({
         head: headers,
         body: data,
         startY: 40,
